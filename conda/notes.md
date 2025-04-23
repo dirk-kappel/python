@@ -10,7 +10,7 @@ Conda is a powerful package manager and environment management system. This refe
 ```bash
 # Create a new environment
 conda create -n myenv    # This will create the environment in a centralized location.
-conda create --prefix ./myenv  # This will create teh environment in a custom location.
+conda create --prefix ./myenv  # This will create the environment in a custom location.
  
 # Create environment with specific Python version
 conda create -n myenv python=3.9
@@ -53,6 +53,9 @@ conda remove --name myenv --all
 
 # Alternative way to remove an environment
 conda env remove -n myenv
+
+# Remove by specifying the path
+conda remove -p /path/to/env
 ```
 
 ## Package Management
