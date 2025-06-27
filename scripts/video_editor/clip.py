@@ -1,11 +1,11 @@
-"""Declips a video file using ffmpeg."""
+"""Clips a video file using ffmpeg."""
 
 import subprocess
 import sys
 from pathlib import Path
 
 # Variables
-output_directory = "/home/wsl2/python/video_editor/vids/"
+output_directory = ""
 
 
 def run_command(command):
